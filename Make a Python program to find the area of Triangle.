@@ -1,8 +1,0 @@
-area1 = 17
-area2 = 77
-area3 = 75
-
-s = (area1 + area2 + area3) / 2
-
-area = (s*(s-area1)*(s-area2)*(s-area3)) ** 0.5
-print('The area of the triangle is %0.2f' %area)
